@@ -41,7 +41,7 @@ function getData(url, res) {
     })
     let prizeThrid = []
     $(
-      '#contentPrint > div.lottocheck__resize > div:nth-child(3) > div:nth-child(2) > span.lotto__number',
+      '#contentPrint > div.lottocheck__resize > div:nth-child(3) > div > span.lotto__number',
     ).each((i, elem) => {
       prizeThrid.push($(elem).text())
     })
